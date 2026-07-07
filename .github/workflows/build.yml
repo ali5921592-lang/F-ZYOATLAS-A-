@@ -25,7 +25,7 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter create .
+      - run: - run: flutter create --project-name fizyoatlas_ai .
 
       - run: flutter build apk --release
 
